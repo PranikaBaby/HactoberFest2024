@@ -25,7 +25,7 @@ def solveNQueens(N):
     backtrack(0, set(), set(), set(), [])
     return result
 
-# Example Usage
+
 N = 4
 solutions = solveNQueens(N)
 for solution in solutions:
