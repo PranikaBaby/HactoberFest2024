@@ -2,7 +2,7 @@
 #include <vector>
 
 int countWays(int k) {
-    if (k <= 1) return 1; // Base case: 1 way to reach 0th or 1st stair
+    if (k <= 1) return 1;
 
     std::vector<int> ways(k + 1);
     ways[0] = 1; // 1 way to stay at ground (0th stair)
